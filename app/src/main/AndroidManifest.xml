@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="codeaggressive.com.bctrace">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera-autofocus" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BCTrace"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme">
+        <activity android:name=".InterlockKegActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar"/>
+        <activity
+            android:name=".RetriveExcel"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".SendExcel"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".DeviceList"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".EndActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".RefactorActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".interlockingActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".KegScanActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".LongAccessActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".OperatorAccessActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".DataAccessActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".ConsumptionDatabaseActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".ConsumptionHistoryActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".ScanHistoryActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".KegCodeActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".MinorActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".HistoryActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".DatabaseActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".ConsumptionActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".ResultActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".ScanActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.BCTrace.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GenerateActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.BCTrace.NoActionBar" />
+        <activity
+            android:name=".CaptureAct"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

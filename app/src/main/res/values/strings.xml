@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">BCTrace</string>
+    <string name="ip">192.168.5.87</string>
+
+    <string-array name="mixer_Names">
+        <item>Mixer</item>
+        <item>Lodige</item>
+        <item>Amixon</item>
+        <item>Morton</item>
+    </string-array>
+
+    <string-array name="keg_no">
+        <item>Kegs</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="sku">
+        <item>Sku</item>
+        <item>Knorr Chicken</item>
+        <item>Knorr Beef</item>
+        <item>Knorr Chicken Classic</item>
+        <item>Knorr Chicken Trial</item>
+        <item>Knorr Beef Trial</item>
+        <item>Royco Chicken</item>
+        <item>Royco Beef</item>
+        <item>Royco Stew</item>
+        <item>Royco Chicken Classic</item>
+        <item>Royco Beef Classic</item>
+        <item>Royco Beef Trial</item>
+        <item>Royco Chicken Trial</item>
+    </string-array>
+
+    <string-array name="operator_name">
+        <item>Operator</item>
+        <item>Olabode Barika</item>
+        <item>Adeniyi Micheal</item>
+        <item>Akande Segun</item>
+        <item>Matiminu Samuel</item>
+        <item>Setun Kunmi</item>
+        <item>Omolere Festus</item>
+    </string-array>
+
+    <string-array name="bin_no">
+        <item>Bin</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+
+    <string-array name="machine">
+        <item>Select</item>
+        <item>--Knorr--</item>
+        <item>RCK1</item>
+        <item>RCK2</item>
+        <item>RCK3</item>
+        <item>RCK4</item>
+        <item>RCK5</item>
+        <item>RCK6</item>
+        <item>RCK7</item>
+        <item>RCK8</item>
+        <item>RCK9</item>
+        <item>RCK10</item>
+        <item>RCK11</item>
+        <item>RCK12</item>
+        <item>RCK13</item>
+        <item>RCK14</item>
+        <item>RCK15</item>
+        <item>RCK16</item>
+        <item>RCK17</item>
+        <item>RCK18</item>
+        <item>RCK19</item>
+        <item>RCK20</item>
+        <item>RCK21</item>
+        <item>RCK22</item>
+        <item>RCK23</item>
+        <item>RCK24</item>
+        <item>RCK25</item>
+        <item>RCK26</item>
+        <item>--Royco--</item>
+        <item>RCR1</item>
+        <item>RCR2</item>
+        <item>RCR3</item>
+        <item>RCR4</item>
+        <item>RCR5</item>
+        <item>RCR6</item>
+        <item>RCR7</item>
+        <item>RCR8</item>
+        <item>RCR9</item>
+        <item>RCR10</item>
+        <item>RCR11</item>
+        <item>RCR12</item>
+        <item>--Thegarteen--</item>
+        <item>TGT102</item>
+        <item>TGT103</item>
+        <item>TGT110</item>
+        <item>TGT111</item>
+        <item>TGT128</item>
+        <item>I7</item>
+        <item>AKASH</item>
+        <item>--Reworks--</item>
+        <item>5%</item>
+        <item>50%</item>
+        <item>100%</item>
+
+    </string-array>
+
+    <string-array name="usage">
+        <item>Select</item>
+        <item>Production</item>
+        <item>Rework</item>
+    </string-array>
+
+    <string-array name="emptyString">
+        <item> </item>
+    </string-array>
+
+</resources>
